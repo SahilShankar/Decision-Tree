@@ -1,19 +1,19 @@
 # Decision-Tree
 This tree decides if Mike would go outside under certain weather conditions.
 
-<pre>
-DAY   Weather   Humidity        Wind          Decision  
-D1 	  rain[0]		high humid[1]	  windy[1]	    yes  
-D2	  sunny[1]	low humid[0]		not windy[0]	yes  
-D3 	  cloudy[2]	high humid	    windy	        no  
-D4 	  rain		  low humid		    windy	        yes 
-D5	  cloudy	  high			      not windy	    yes 
-D6 	  sunny	    low			        windy	        no 	
-</pre>
+| DAY | OVERCAST  | HUMIDITY | WIND      | DECISION |  
+|-----|-----------|----------|-----------|----------|  
+| D1  | Rain[0]   | High     | Windy     | Yes      | 
+| D2  | Sunny[1]  | Low      | Not Windy | Yes      | 
+| D3  | Cloudy[2] | High     | Windy     | No       | 
+| D4  | Rain      | Low      | Windy     | Yes      | 
+| D5  | Cloudy    | High     | Not Windy | Yes      | 
+| D6  | Sunny     | Low      | Windy     | No       |  
 
-Prediction Day
-D7 	cloudy	low			windy 
+Prediction Day  
+| D7  | Cloudy     | Low      | Windy     | ??       | 
 
 Feel free to add more features/attributes  
 
-PS: This is a rudimentary Decision Tree. I havent added deciosn split nodes  
+PS: This is a rudimentary Decision Tree. I havent added deciosn split nodes 
+
